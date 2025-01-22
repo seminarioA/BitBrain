@@ -3,10 +3,11 @@
 BitBrain es una herramienta avanzada para la clasificación de imágenes de resonancia magnética (MRI) de pacientes, diseñada para identificar casos de cáncer cerebral con una efectividad del 99%. Este proyecto fue desarrollado por el Científico de Datos e Ingeniero de Software Alejandro Seminario en septiembre de 2024, utilizando técnicas de aprendizaje profundo y redes neuronales convolucionales (CNNs).
 
 
-## DataSet
+## Descripción del Proyecto
 
-El dataset está compuesto de 800 imágenes por resonancia magnética (MRI), de las cuales 392 presentan casos de cáncer cerebral y 408 son de pacientes sanos.
-
+El objetivo principal de BitBrain es asistir a los profesionales médicos en el diagnóstico temprano del cáncer cerebral, utilizando un modelo de Red Neuronal Convolucional (CNN) de nueve capas, diseñado específicamente para analizar imágenes de MRI y clasificarlas en dos categorías principales:
+Pacientes con cáncer cerebral.
+Pacientes sanos.
 
 | MRI - PACIENTES ENFERMOS | MRI - PACIENTES SANOS |
 |----------|----------|
