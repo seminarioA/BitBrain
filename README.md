@@ -9,6 +9,19 @@ El objetivo principal de BitBrain es asistir a los profesionales médicos en el 
 Pacientes con cáncer cerebral.
 Pacientes sanos.
 
+### Características Principales
+
+Precisión del Modelo: 99% en datos de prueba.
+Arquitectura del Modelo: 9 capas optimizadas para extracción y clasificación de características visuales.
+Lenguaje de Programación: Python.
+Implementación Modular: Código diseñado para facilitar mejoras futuras y personalización.
+
+## Dataset
+El modelo fue entrenado utilizando un conjunto de datos compuesto por 800 imágenes de resonancia magnética (MRI), distribuidas de la siguiente manera:
+
+- 392 imágenes: Pacientes con casos confirmados de cáncer cerebral.
+- 408 imágenes: Pacientes sanos.
+
 | MRI - PACIENTES ENFERMOS | MRI - PACIENTES SANOS |
 |----------|----------|
 | [![pacientesano.gif](https://i.postimg.cc/DzzTQq6P/ezgif-5-ded7e010fc.gif)](https://postimg.cc/RW2y4JjW) | [![cancercerebral.gif](https://i.postimg.cc/RVf8MjYH/ezgif-com-optimize.gif)](https://github.com/seminarioA/TensorBrain/tree/6df1896473fa60c7e2c300e40e99cabc02e2833d/dataSet) |
