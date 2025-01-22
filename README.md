@@ -45,3 +45,8 @@ El clasificador de BitBrain utiliza la siguiente arquitectura:
 - Una capa totalmente conectada con 128 neuronas y activación ReLU.
 - Una capa de salida con activación sigmoide para la clasificación binaria.
 4. Regularización: Se utilizó Dropout para prevenir el sobreajuste.
+
+## Resultados
+Precisión en validación:
+
+[![validation_accuracy.png](https://i.postimg.cc/5N35wcZF/image-7.png)](https://postimg.cc/ykDSHG6V)
