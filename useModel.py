@@ -6,10 +6,10 @@ model = load_model("""[COLOQUE LA RUTA DEL MODELO PREENTRENADO]""")
 
 image_path = """[COLOQUE LA RUTA DE LA IMAGEN A EVALUAR]"""
 
-img = load_img(image_path, target_size=(150, 150))  # Redimensionar la imagen al tamaño esperado
-img_array = img_to_array(img)  # Convertir la imagen a un array de NumPy
-img_array = img_array / 255.0  # Normalizar los valores de píxeles
-img_array = np.expand_dims(img_array, axis=0)  # Añadir una dimensión para el batch
+img = load_img(image_path, target_size=(150, 150))
+img_array = img_to_array(img)
+img_array = img_array / 255.0
+img_array = np.expand_dims(img_array, axis=0)
 
 prediction = model.predict(img_array)
 
