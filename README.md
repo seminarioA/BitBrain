@@ -37,7 +37,7 @@ El modelo fue entrenado utilizando un conjunto de datos compuesto por 800 imáge
 - Pruebas: 10%.
 
 
-### Arquitectura del Modelo
+## Arquitectura del Modelo
 El clasificador de BitBrain utiliza la siguiente arquitectura:
 
 1. Capas Convolucionales: Tres bloques de capas convolucionales y de pooling para extracción de características.
