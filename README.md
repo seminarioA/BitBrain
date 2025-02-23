@@ -1,4 +1,5 @@
-<h1 align=center> BitBrain </h1> <h4 align=center>Por: Seminario, Alejandro.</h4>
+<h3 align=center>🥼 BitBrain</h3>
+<h4 align=center>Por: Seminario, Alejandro.</h4>
 
 <h1></h1>
 
