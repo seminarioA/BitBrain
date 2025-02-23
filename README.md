@@ -23,7 +23,7 @@ Se utilizaron 800 imagenes por resonancia magnetica (MRI) de alta calidad, previ
 <h1></h1>
 
 <h4>🏗️ Arquitectura de Software</h4>
-<h5>¿Como esta diseñado el modelo?</h5>
+<h5>¿Como esta diseñado el sistema?</h5>
 
 <table>
     <thead>
