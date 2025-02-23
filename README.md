@@ -2,17 +2,17 @@
 <h4 align=center>Por: Seminario, Alejandro.</h4>
 
 <h1></h1>
+<h4>🤔 Preguntas Frecuentes</h4>
 
-
-<h4>❓ ¿Que es?</h4>
+<h5>❓ ¿Que es?</h5>
 BitBrain es un modelo de IA basado en Redes Neuronales Convolucionales (CNNs) para detectar 
 cáncer cerebral en pacientes, con una efectividad del 99%.
 
 
-<h4>❓ ¿Para que se puede utilizar?</h4>
+<h5>❓ ¿Para que se puede utilizar?</h5>
 Puede ser usado para el diagnostico asistido y predecir el cancer cerebral en etapas tempranas.
 
-<h4>❓ ¿Como fue entrenado el modelo?</h4>
+<h5>❓ ¿Como fue entrenado el modelo?</h5>
 Se utilizaron 800 imagenes por resonancia magnetica (MRI) de alta calidad, previamente clasificadas.
 
 <h1></h1>
