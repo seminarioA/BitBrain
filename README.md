@@ -47,7 +47,7 @@ Se utilizaron 800 imagenes por resonancia magnetica (MRI) de alta calidad, previ
               <tr>
             <td align="center">Controlador</td>
             <td align="center">Flask (Framework)</td>
-            <td align="center">Gestiona la lógica del negocio y la comunicación entre la Vista y el Modelo.</td>
+            <td align="center">Gestiona la lógica y la comunicación entre la Vista y el Modelo.</td>
         </tr>
     </tbody>
 </table>
