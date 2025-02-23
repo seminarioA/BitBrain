@@ -17,6 +17,43 @@ Se utilizaron 800 imagenes por resonancia magnetica (MRI) de alta calidad, previ
 
 <h1></h1>
 
+<h4>🧑‍🔬 ¿Como usar el modelo?</h4>
+
+
+<h1></h1>
+
+<h4>🏗️ Arquitectura de Software</h4>
+<h5>¿Como esta diseñado el modelo?</h5>
+
+<table>
+    <thead>
+        <tr>
+            <th>Capa</th>
+            <th>Tecnología(s)</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">Modelo</td>
+            <td align="center">Keras (Libreria)</td>
+            <td align="center">Modelo de IA entrenado en la nube y presente en la capa Modelo del sistema.</td>
+        </tr>
+              <tr>
+            <td align="center">Vista</td>
+            <td align="center">HTML, HTMX, CSS, JavaScript, Bootstrap</td>
+            <td align="center">Encargada de la presentación y la interacción con el usuario.</td>
+        </tr>
+              <tr>
+            <td align="center">Controlador</td>
+            <td align="center">Flask (Framework)</td>
+            <td align="center">Gestiona la lógica del negocio y la comunicación entre la Vista y el Modelo.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h1></h1>
+
 <h4>📈 Pruebas y Validacion</h4>
 
 <h1></h1>
