@@ -30,6 +30,7 @@ Puede ser usado para el diagnostico asistido y predecir el cancer cerebral en et
 - Markdown
 
 <h5>Frameworks</h5>
+
 - Flask
 
 
@@ -38,6 +39,13 @@ Puede ser usado para el diagnostico asistido y predecir el cancer cerebral en et
 - Numpy
 - TensorFlow
 - Keras
+
+<h5>Controladores de Versiones</h5>
+
+- Git
+- GitHub
+
+
 
 <h5>Computacion en la Nube y Servidores</h5>
 
