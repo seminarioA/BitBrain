@@ -14,8 +14,17 @@ Puede ser usado para el diagnostico asistido y predecir el cancer cerebral en et
 
 <h4>¿Que tecnologias se utilizaron?</h4>
 
-| Python | Flask | Numpy | TensorFlow | Keras | HTML | CSS | JavaScript | Google Colab | Vercel |
-|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+- Python
+- Flask
+- Numpy
+- TensorFlow
+- Keras
+- HTML
+- CSS
+- JavaScript
+- Google Colab
+- Vercel
+
 
 
 
