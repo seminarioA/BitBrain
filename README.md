@@ -42,6 +42,7 @@ Se utilizaron 800 imagenes por resonancia magnetica (MRI) de alta calidad, previ
 - Numpy
 - TensorFlow
 - Keras
+- Bootstrap
 
 <h5>Controladores de Versiones</h5>
 
