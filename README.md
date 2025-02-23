@@ -27,6 +27,7 @@ Puede ser usado para el diagnostico asistido y predecir el cancer cerebral en et
 - HTML
 - HTMX
 - CSS
+- Markdown
 
 <h5>Frameworks</h5>
 - Flask
