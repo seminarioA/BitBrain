@@ -5,7 +5,7 @@
 <h4>🤔 Preguntas Frecuentes</h4>
 
 <h5>❓ ¿Que es?</h5>
-BitBrain es un modelo de IA basado en Redes Neuronales Convolucionales (CNNs) para detectar 
+BitBrain es un modelo de IA basado en Redes Neuronales Convolucionales (CNNs) que permite detectar 
 cáncer cerebral en pacientes, con una efectividad del 99%.
 
 
