@@ -12,6 +12,9 @@ cáncer cerebral en pacientes, con una efectividad del 99%.
 <h4>❓ ¿Para que se puede utilizar?</h4>
 Puede ser usado para el diagnostico asistido y predecir el cancer cerebral en etapas tempranas.
 
+<h4>❓ ¿Como fue entrenado el modelo?</h4>
+Se utilizaron 800 imagenes por resonancia magnetica (MRI) de alta calidad, previamente clasificadas.
+
 <h1></h1>
 
 <h4>📈 Pruebas y Validacion</h4>
