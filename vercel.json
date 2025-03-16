@@ -1,9 +1,19 @@
 {
     "version": 2,
     "builds": [
-        {"src": "controlador/app.py", "use": "@vercel/python"}
+      {
+        "src": "controlador/app.py",
+        "use": "@vercel/python",
+        "config": {
+          "pythonVersion": "3.10"
+        }
+      }
     ],
     "routes": [
-        {"src": "/(.*)", "dest": "controlador/app.py"}
+      {
+        "src": "/(.*)",
+        "dest": "controlador/app.py"
+      }
     ]
-}
+  }
+  
