@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 
 # Carga del modelo Keras
-model = load_model('static\keras\modelo_clasificador.keras')
+model = load_model('modelo\static\keras\modelo_clasificador.keras')
 
 # Funcion para calcular el nivel de confianza de imagen
 def calcularImg(image_path):
