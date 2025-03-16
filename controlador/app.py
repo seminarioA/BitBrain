@@ -14,12 +14,10 @@ app = Flask(__name__, template_folder=template_dir)
 def index():
     return render_template("base.html")
 
-# Determinar si estamos en Vercel
-EN_VERCEL = os.getenv("VERCEL_ENV") is not None
-
 # Definir ruta de almacenamiento
-UPLOAD_FOLDER = "tmp" if EN_VERCEL else "static/uploads"
+UPLOAD_FOLDER = os.getenv("TMPDIR", "/tmp")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
 
 @app.route("/convertir", methods=['POST'])
 
