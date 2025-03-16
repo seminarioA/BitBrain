@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, send_from_directory
 import os 
 
-from model.predecir import calcularImg
+from modelo.predecir import calcularImg
 
 app = Flask(__name__)
 
