@@ -3,7 +3,9 @@ import os
 
 from modelo.predecir import calcularImg
 
-app = Flask(__name__)
+
+template_dir = os.path.abspath('vista')
+app = Flask(__name__, template_folder=template_dir)
 
 @app.route("/")
 def index():
