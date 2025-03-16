@@ -1,3 +1,4 @@
+# Importe de las librerias necesarias
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
@@ -5,6 +6,7 @@ import numpy as np
 # Carga del modelo Keras
 model = load_model('keras\modelo_clasificador.keras')
 
+# Funcion para calcular el nivel de confianza de imagen
 def calcularImg(image_path):
     img = load_img(image_path, target_size=(150, 150))
     img_array = img_to_array(img)
