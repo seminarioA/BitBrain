@@ -3,19 +3,20 @@
 
 {% include "_head.html" %}
 
-<body
-    class="text-light
-    d-flex flex-column min-vh-100"
-    style="background-color: black;">
+<body>
 
-    {% include "_header.html" %}
-    
-    {% include "_info.html" %}
+    {% include "_navbar.html" %}
 
-    {% include "_main.html" with context %}
+    <div class="text-light
+    d-flex flex-column min-vh-100" style="background-color: black;">
+        {% include "_header.html" %}
 
-    {% include "_footer.html" %}
+        {% include "_info.html" %}
 
+        {% include "_main.html" with context %}
+
+        {% include "_footer.html" %}
+    </div>
 </body>
 
 
