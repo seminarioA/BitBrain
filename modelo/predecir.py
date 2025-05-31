@@ -3,9 +3,11 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 import numpy as np
+import os
 
 # Carga del modelo Keras (ruta relativa o absoluta según organización del proyecto)
-model = load_model('modelo\static\keras\modelo_clasificador.keras')
+model_path = os.path.join('modelo', 'static', 'keras', 'modelo_clasificador.keras')
+model = load_model(model_path)
 
 # Función para calcular el nivel de confianza de una imagen en memoria
 def calcularImg(image_stream):
